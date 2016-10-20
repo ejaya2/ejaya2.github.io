@@ -12,39 +12,39 @@ What I needed to do was upon site creation from a template, add some web parts t
 Today I stumbled upon a [post](http://www.glynblogs.com/2011/04/exporting-the-xslt-list-view-web-part-in-sharepoint-2010.html) by [Glyn Clough](http://www.twitter.com/GlynClough) that filled that documentation black hole.
 
 I need to use the List View Web Part markup, adjusting the ListUrl value were appropriate, like this for lists:
-```python
-<?xml version="1.0" encoding="utf-8" ?>
-<webParts>
- <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
-  <metaData>
-   <type name="Microsoft.SharePoint.WebPartPages.XsltListViewWebPart, Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
-   <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
-  </metaData>
-  <data>
-   <properties>
-    <property name="ListUrl" type="string">Lists/CustomList</property>
-    <property name="ExportMode" type="exportmode">All</property>
-   </properties>
-  </data>
- </webPart>
-</webParts>
-```
+
+    <?xml version="1.0" encoding="utf-8" ?>
+    <webParts>
+     <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+      <metaData>
+       <type name="Microsoft.SharePoint.WebPartPages.XsltListViewWebPart, Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+       <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+      </metaData>
+      <data>
+       <properties>
+        <property name="ListUrl" type="string">Lists/CustomList</property>
+        <property name="ExportMode" type="exportmode">All</property>
+       </properties>
+      </data>
+     </webPart>
+    </webParts>
+
 and like this for document libraries:
-```python
-<?xml version="1.0" encoding="utf-8" ?>
-<webParts>
- <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
-  <metaData>
-   <type name="Microsoft.SharePoint.WebPartPages.XsltListViewWebPart, Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
-   <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
-  </metaData>
-  <data>
-   <properties>
-    <property name="ListUrl" type="string">Library</property>
-    <property name="ExportMode" type="exportmode">All</property>
-   </properties>
-  </data>
- </webPart>
-</webParts>
-```
+
+    <?xml version="1.0" encoding="utf-8" ?>
+    <webParts>
+     <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+      <metaData>
+       <type name="Microsoft.SharePoint.WebPartPages.XsltListViewWebPart, Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+       <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+      </metaData>
+      <data>
+       <properties>
+        <property name="ListUrl" type="string">Library</property>
+        <property name="ExportMode" type="exportmode">All</property>
+       </properties>
+      </data>
+     </webPart>
+    </webParts>
+
 Once escaped and passed into my SPServices function I had web parts on my web part page.
