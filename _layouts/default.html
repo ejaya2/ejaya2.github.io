@@ -3,12 +3,7 @@
 		{% include head.html %}
 		<body>
 			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-				<li><a href="/blog/atom.xml">Feed</a></li>
-	    		</ul>
+	    		{% include footer.html %}
 			</nav>
 			<div class="container">
 			
@@ -16,10 +11,8 @@
 			
 			</div>
 			<footer>
-	    		<ul>
-	        		<li><a href="https://github.com/ejaya2">github.com/ejaya2</a></li>
-              <li><a href="https://www.linkedin.com/in/eric-alexander-06827952">Me on LinkedIn</a></li> 
-				</ul>
+	    		{% include footer.html %}
 			</footer>
+			{% include scripts.html %}
 		</body>
 	</html>
