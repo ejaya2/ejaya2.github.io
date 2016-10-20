@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AddWebPart Method of the WebPartPages Web Service"
-date: 2016-10-19
+date: 2013-01-17
 ---
 <p>It's been a bit of a hiatus since I've posted anything on my blog. 2 kids, a job change, and a move across country will do that. Anyway, tonight's post is one I'm doing more for self-preservation and hopefully others will find it useful. There are a lot of documentation black holes out there in the Sharepoint land and it seems that the WebPartPages web service is one of them.</p>
 <p>In a project I'm currently working on, there is a need to automate a project creation process that is very manual to something more automated. Fortunately we have <a href="/web/20130419214243/http://www.nintex.com/en-US/Products/Pages/Workflow.aspx">Nintex Workflow</a> to handle situations like this.&#8203; Part of this workflow is to provision a new subsite after the project is approved by the project manager. Nintex makes this easy with their LazyApproval feature and create site action.</p>
@@ -39,4 +39,4 @@ date: 2016-10-19
   &lt;/data&gt;
  &lt;/webPart&gt;
 &lt;/webParts&gt;</pre>
-<p>Once escaped and passed into my SPServices function I had web parts on my web part page.<br></p></div>
+<p>Once escaped and passed into my SPServices function I had web parts on my web part page.<br></p>
