@@ -26,6 +26,7 @@ function trimOWS(value){
 }
 ```
 Then in my SPServices function, I simply call it like:
+
 ```javascript
 var edept = trimOWS($(this).attr("ows_EmployeeDepartment"));
 ```
@@ -83,13 +84,15 @@ function formatYear(value){
 }
 ```
 
-This uses the substring functions too bust the values apart and format a date and time in the fashion I want. It also has some logic in there to handle how to display values below 10 (personal preference, I don't like 05-29 but prefer 5-29) and AM/PM logic. This is called in the same fashion in my SPServices function:
+This uses the substring functions too bust the values apart and format a date and time in the fashion I want. It also has some logic in there to handle how to display values below 10 (personal preference, I don't like 05-29 but prefer 5-29) and AM/PM logic. This is called in the same fashion in my SPServices function.
+
 ```javascript
 var start = formatYear($(this).attr("ows_StartDate"));
 ```
 
 ## Number Fields
-If you tell SharePoint to display a number column with 0 decimals, it displays it nicely in the UI. With the web services, you might get something like 16.0000000000. A simple way to handle that is with a replace regular expression. As an aside, regular expressions look hideous and make no real logical sense to me. I always seem to have to Bing my way to what I need or ask a collegue. For whole numbers, I use a formula like this:
+If you tell SharePoint to display a number column with 0 decimals, it displays it nicely in the UI. With the web services, you might get something like 16.0000000000. A simple way to handle that is with a replace regular expression. As an aside, regular expressions look hideous and make no real logical sense to me. I always seem to have to Bing my way to what I need or ask a collegue. For whole numbers, I use a formula like this.
+
 ```javascript
 var seats = $(this).attr("ows_FilledSeats").replace(/\..*/g, "");
 ```
