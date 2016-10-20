@@ -2,6 +2,9 @@
 layout: post
 title: "Publishing HTML Column Frustrations"
 date: 2013-08-14
+category: Development
+tags: jQuery Publishing Field
+author: Eric
 ---
 Lately I've been doing a lot of work in the publishing/WCM area and one thing that's really aggravated me is that when you have a content type created for a page layout Sharepoint tries to be too cutesy when you edit the metadata for the item.
 
