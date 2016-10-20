@@ -12,7 +12,7 @@ What I needed to do was upon site creation from a template, add some web parts t
 Today I stumbled upon a [post](http://www.glynblogs.com/2011/04/exporting-the-xslt-list-view-web-part-in-sharepoint-2010.html) by [Glyn Clough](http://www.twitter.com/GlynClough) that filled that documentation black hole.
 
 I need to use the List View Web Part markup, adjusting the ListUrl value were appropriate, like this for lists:
-```
+```python
 <?xml version="1.0" encoding="utf-8" ?>
 <webParts>
  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
@@ -30,7 +30,7 @@ I need to use the List View Web Part markup, adjusting the ListUrl value were ap
 </webParts>
 ```
 and like this for document libraries:
-```
+```python
 <?xml version="1.0" encoding="utf-8" ?>
 <webParts>
  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
