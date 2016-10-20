@@ -9,7 +9,7 @@ This post will show you one simple way to work with these columns and is also fo
 
 ## Person and Group and Lookup Columns
 
-When you get data back from SharePoint for one of these columns, it typically looks like this: `154;#555-1234` or `16;#Operations Department`. Using the below function, I can get the descriptive value that SharePoint Designer seamless outputs in Dataview Webparts.
+When you get data back from SharePoint for one of these columns, it typically looks like this: ```154;#555-1234``` or ```16;#Operations Department```. Using the below function, I can get the descriptive value that SharePoint Designer seamless outputs in Dataview Webparts.
 
 ```javascript
 function trimOWS(value){
@@ -26,7 +26,9 @@ function trimOWS(value){
 }
 ```
 Then in my SPServices function, I simply call it like:
-`var edept = trimOWS($(this).attr("ows_EmployeeDepartment"));`
+```javascript
+var edept = trimOWS($(this).attr("ows_EmployeeDepartment"));
+```
 
 This is testing against a string length of 8 as it's a double duty function, checking both department fields and phone numbers in my case. You could alter that to any value as needed.
 
@@ -82,9 +84,12 @@ function formatYear(value){
 ```
 
 This uses the substring functions too bust the values apart and format a date and time in the fashion I want. It also has some logic in there to handle how to display values below 10 (personal preference, I don't like 05-29 but prefer 5-29) and AM/PM logic. This is called in the same fashion in my SPServices function:
-
-`var start = formatYear($(this).attr("ows_StartDate"));`
+```javascript
+var start = formatYear($(this).attr("ows_StartDate"));
+```
 
 ## Number Fields
 If you tell SharePoint to display a number column with 0 decimals, it displays it nicely in the UI. With the web services, you might get something like 16.0000000000. A simple way to handle that is with a replace regular expression. As an aside, regular expressions look hideous and make no real logical sense to me. I always seem to have to Bing my way to what I need or ask a collegue. For whole numbers, I use a formula like this:
-`var seats = $(this).attr("ows_FilledSeats").replace(/\..*/g, "");
+```javascript
+var seats = $(this).attr("ows_FilledSeats").replace(/\..*/g, "");
+```
