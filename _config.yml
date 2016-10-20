@@ -1,4 +1,5 @@
 name: Eric Alexander
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-jekyll-sitemap
+gems:
+  - jekyll-sitemap
