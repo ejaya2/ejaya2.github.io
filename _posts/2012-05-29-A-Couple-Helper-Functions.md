@@ -3,7 +3,6 @@ layout: post
 title: "A Couple Helper Functions"
 date: 2012-05-29
 ---
-<div><h1 class="ms-rteElement-H1">&#8203;A Couple Helper Functions</h1>
 <div>
 </div>
 <p>If you work with client side scripts and libraries like jQuery and <a href="/web/20130419214243/http://spservices.codeplex.com/">SPServices</a>, you'll often run into situations where the data you get back from.&nbsp; This isn't an issue with those libraries, they're just spitting back at you what SharePoint told them.&nbsp; The two areas where I see this the most in my dealings is with dates and person/group/lookup fields. As an update, I'm including something for number columns as well.<br></p>
