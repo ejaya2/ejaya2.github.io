@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AddWebPart Method of the WebPartPages Web Service"
+subtitle: Adding web parts onto your pages via the web services
 date: 2013-01-17
 category: Development
 tags: jQuery SPServices WebParts

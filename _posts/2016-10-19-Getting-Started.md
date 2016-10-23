@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Getting a new blog up"
+subtitle: I'll really try to start blogging more, I swear
 date: 2016-10-19
 category: Announcement
 tags: SPO O365

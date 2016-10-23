@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Oddity with importing SharePoint data to Excel"
+subtitle: Sometimes Excel is too helpful
 date: 2012-04-13
 category: Announcement
 tags: Book
