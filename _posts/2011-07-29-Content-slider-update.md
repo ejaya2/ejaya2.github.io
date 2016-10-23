@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Content slider update"
+subtitle: "Additional functionality for the content slider"
 date: 2011-07-29
 category: Development
 tags: Slider
