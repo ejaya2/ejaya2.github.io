@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Publishing HTML Column Frustrations"
+title: Publishing HTML Column Frustrations
+subtitle: Some field types make you want to pull your hair out
 date: 2013-08-14
 category: Development
 tags: jQuery Publishing Field
