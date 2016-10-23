@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Couple Helper Functions"
+subtitle: A few old stand bys
 date: 2012-05-29
 category: Utilities
 tags: jQuery SPServices

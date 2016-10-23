@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Forcing Tags and Notes to Render"
+subtitle: We really have to do this? 
 date: 2013-05-07
 category: Development
 tags: jQuery Tags Notes Social

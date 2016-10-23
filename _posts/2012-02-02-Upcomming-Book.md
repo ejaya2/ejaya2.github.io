@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Upcoming Book"
+subtitle: I'm going to be published
 date: 2012-02-02
 category: Announcement
 tags: Book

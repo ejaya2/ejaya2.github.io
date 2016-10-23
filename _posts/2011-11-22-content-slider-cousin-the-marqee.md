@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Content Slider's Cousin, the Marquee"
+subtitle: But were't marquees like web circa 2000?
 date: 2011-11-22
 category: Development
 tags: jQuery SPServices marquee slider
