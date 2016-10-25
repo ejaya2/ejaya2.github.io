@@ -1,6 +1,8 @@
 name: Eric Alexander
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-exclude: []
+exclude: ['README.md','_drafts']
+paginate: 7
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
