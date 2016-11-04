@@ -26,8 +26,13 @@ that bridge the gap. Once these are installed
 ##Optional Module, PnP PowerShell
 If creating a slew of functions is not up your alley, there is a great publicly available project on GitHub called [Office 365 Dev PnP PowerShell CmdLets](https://github.com/OfficeDev/PnP-PowerShell). I won't be covering this in great detail. By the time I knew it was
 out there, I already had a module of functions in the area of 3000 lines of code. I have used it for inspiration for gaps in our module.
-##Other Module of Note
+##Other Modules of Note
 Depending on what workloads you are going to work with in Office 365, there are other PowerShell Modules you may want to install. They include, and are not limited to: 
  + [Azure Active Directory PowerShell Module](https://msdn.microsoft.com/en-us/library/azure/jj151815(v=azure.98).aspx "Download from Microsoft")
  + [Skype for Business PowerShell Module](https://www.microsoft.com/en-us/download/details.aspx?id=39366 "Download from Microsoft")
  + Exchange Online uses a different mechanism to get the required modules. They are pulled down from the server each time you connect.
+
+ If video is more your thing, [Shane Young](https://twitter.com/ShanesCows) has a video over on the [Youtubes](https://www.youtube.com/watch?v=rEy2mlFVWa4) going over some of these concepts. Well worth a watch if you have time.
+
+ ##What's next?
+ In my next post, I'll go through a technique of wiring all these components into a PowerShell profile and detail some ways our team is effectively using a custom module shared via OneDrive.
