@@ -8,7 +8,7 @@ tags: PowerShell
 author: Eric
 ---
 
-So you have a shiny new Offce 365 tenant. Now what? If you are anything like me, the first thing you want to do is to start plugging away from the PowerShell to administer your tenant. But how do you do that?
+So you have a shiny new Office 365 tenant. Now what? If you are anything like me, the first thing you want to do is to start plugging away from the PowerShell to administer your tenant. But how do you do that?
 
 In this post, I am going to go through the process of getting your environment set up to start using PowerShell. This is focused more on the SharePoint side of the Office 365 suite.
 
