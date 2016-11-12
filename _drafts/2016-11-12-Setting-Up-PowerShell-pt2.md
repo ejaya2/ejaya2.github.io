@@ -20,7 +20,7 @@ Welcome back friends. In part 2 of Setting up PowerShell for Office 365, I'm goi
 
 
 
-##Creating A Profile
+## Creating A Profile
 
 What is a PowerShell profile and why is it useful? A profile is a ay to load scripts and modules every time a PowerShell session is launched. This is beneficial in that as soon as the ISE or console gives you the command prompt, you are ready to start working. In a team setting, it enforces a consistent experience from team member to team member. On a personal stand point, I want the ISE to be ready with everyhting I need when it is available and I don't want to have to always bloat my code with dependency type injection to load modules that might not have been loaded.
 
@@ -45,7 +45,7 @@ If the `Test-Path $profile` returned **True**, you can simply forgo `New-Item` c
 
 Now that we have our profile created and it open for editing, it is time to wire in all our modules so PowerShell is ready for us when we launch it.
 
-##Wiring Components
+## Wiring Components
 
 The first thing we want to do is import the SharePoint Online management shell. This is done by utilizing the [Import-Module](https://technet.microsoft.com/en-us/library/hh849725.aspx) command in our profile:
 ```PowerShell
@@ -115,11 +115,11 @@ Save and close notepad and fire up PowerShell again. If all worked correctly, yo
 
 ![Credential prompt](/img/credentials.png "Credential prompt")
 
-##Working Collaboratively
+## Working Collaboratively
 
 One of the big pitfalls with administrating SharePoiint Online with PowerShell is the limited number of commandlets. When I first started using the management shell, there were about 12 commands available. In subsequent releases, there are more commands but still no where near the same as an on premesis installation. For example, you might be accustom to using `Get-SPWeb` or `Get-SPList` for a lot of heavy lifting, there is no equivalent in the SharePoint Online Management Shell. Or perhaps you were used to navigating through your web applications by using `Get-SPWebApplication`, In SharePoint Online, we do not have access to that level of the farm. This means we have to use open source solutions like the [Office 365 Dev PnP PowerShell CmdLets](https://github.com/OfficeDev/PnP-PowerShell) mentioned in my last post, or building out your own module with your own business logic. I was in the later camp, so most of my subsequent posts will operate under that assumption. The module to date is over 4000 lines of code.
 
 Having said all of that, the module we have is stored in SharePoint Online under version control. This allows us to use OneDrive for Business to sync the library to our local machines and pull in our module. You can even take it a step further if you'd like by requiring check out and content approval to tighten the authorship of adding new functions into the module. Other organizations might do things differently, we've found this works well for all the SharePoint administrators on the team, and the folks who manage Exchange Online and Skype for Business are doing similar things. Also as shown above, I wired in my own module stored in my OneDrive for Business site to include some functions I use from time to time that aren't a necessity for inclusion into the main module. These could be your own utility functions for sending custom emails or particular reports that someone asks you for infrequently.
 
-##Conclusion
+## Conclusion
 In this article, I've shown you how to generate a profile, wire in all the necessary modules needed to work with SharePoint Online, and provided a interesting approach to share custom scripts and modules with team members. With all of this in place, you are ready to start your SharePoint Online management ~~nightmare~~ journey. Look for future articles about creating a shared module of functions for your team and other things PowerShell related.
