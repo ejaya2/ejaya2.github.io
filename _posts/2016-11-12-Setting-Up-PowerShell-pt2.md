@@ -16,13 +16,13 @@ author: Eric
 
 ---
 
-Welcome back friends. In part 2 of Setting up PowerShell for Office 365, I'm going to show you how to create a profile, wire up all of our previously installed modules necessary to talk to SharePoint, and show a technique on sharing a module across a team. If you don't know what I'm talking about, then please refer to the [previous article](http://ericjalexander.com/blog/2016/11/03/Setting-Up-PowerShell).'
+Welcome back friends. In part 2 of Setting up PowerShell for Office 365, I'm going to show you how to create a profile, wire up all of our previously installed modules necessary to talk to SharePoint, and show a technique on sharing a module across a team. If you don't know what I'm talking about, then please refer to the [previous article](http://ericjalexander.com/blog/2016/11/03/Setting-Up-PowerShell).
 
 
 
 ## Creating A Profile
 
-What is a PowerShell profile and why is it useful? A profile is a ay to load scripts and modules every time a PowerShell session is launched. This is beneficial in that as soon as the ISE or console gives you the command prompt, you are ready to start working. In a team setting, it enforces a consistent experience from team member to team member. On a personal stand point, I want the ISE to be ready with everyhting I need when it is available and I don't want to have to always bloat my code with dependency type injection to load modules that might not have been loaded.
+What is a PowerShell profile and why is it useful? A profile is a ay to load scripts and modules every time a PowerShell session is launched. This is beneficial in that as soon as the ISE or console gives you the command prompt, you are ready to start working. In a team setting, it enforces a consistent experience from team member to team member. On a personal stand point, I want the ISE to be ready with everything I need when it is available and I don't want to have to always bloat my code with dependency type injection to load modules that might not have been loaded.
 
 Creating a profile is pretty simple. From the Start menu, launch Windows PowerShell or Windows PowerShell ISE. Profiles are specific to which application you decide to use. If you use both the console and ISE equally, you'll need to repeat this process for each application. To see if you have a profile, you would type this into the console:
 
@@ -63,7 +63,7 @@ Import-Module "C:\Program Files\Common Files\Microsoft Shared\Web Server Extensi
 Import-Module "C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.Publishing.dll"
 Import-Module "C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.Taxonomy.dll"
 ```
-The next module is optional and I explain them in more detail in the next section. This imports a shared module comprosed of custom functions for our team to do consistent work.
+The next module is optional and I explain them in more detail in the next section. This imports a shared module comprised of custom functions for our team to do consistent work.
 
 ```PowerShell
 #My extensions
@@ -117,7 +117,7 @@ Save and close notepad and fire up PowerShell again. If all worked correctly, yo
 
 ## Working Collaboratively
 
-One of the big pitfalls with administrating SharePoiint Online with PowerShell is the limited number of commandlets. When I first started using the management shell, there were about 12 commands available. In subsequent releases, there are more commands but still no where near the same as an on premesis installation. For example, you might be accustom to using `Get-SPWeb` or `Get-SPList` for a lot of heavy lifting, there is no equivalent in the SharePoint Online Management Shell. Or perhaps you were used to navigating through your web applications by using `Get-SPWebApplication`, In SharePoint Online, we do not have access to that level of the farm. This means we have to use open source solutions like the [Office 365 Dev PnP PowerShell CmdLets](https://github.com/OfficeDev/PnP-PowerShell) mentioned in my last post, or building out your own module with your own business logic. I was in the later camp, so most of my subsequent posts will operate under that assumption. The module to date is over 4000 lines of code.
+One of the big pitfalls with administrating SharePoiint Online with PowerShell is the limited number of commandlets. When I first started using the management shell, there were about 12 commands available. In subsequent releases, there are more commands but still nowhere near the same as an on premises installation. For example, you might want to use `Get-SPWeb` or `Get-SPList` for a lot of heavy lifting, there is no equivalent in the SharePoint Online Management Shell. Or perhaps you were used to navigating through your web applications by using `Get-SPWebApplication`, In SharePoint Online, we do not have access to that level of the farm. This means we have to use open source solutions like the [Office 365 Dev PnP PowerShell CmdLets](https://github.com/OfficeDev/PnP-PowerShell) mentioned in my last post, or building out your own module with your own business logic. I was in the later camp, so most of my subsequent posts will operate under that assumption. The module to date is over 4000 lines of code.
 
 Having said all of that, the module we have is stored in SharePoint Online under version control. This allows us to use OneDrive for Business to sync the library to our local machines and pull in our module. You can even take it a step further if you'd like by requiring check out and content approval to tighten the authorship of adding new functions into the module. Other organizations might do things differently, we've found this works well for all the SharePoint administrators on the team, and the folks who manage Exchange Online and Skype for Business are doing similar things. Also as shown above, I wired in my own module stored in my OneDrive for Business site to include some functions I use from time to time that aren't a necessity for inclusion into the main module. These could be your own utility functions for sending custom emails or particular reports that someone asks you for infrequently.
 
