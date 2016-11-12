@@ -29,7 +29,7 @@ Creating a profile is pretty simple. From the Start menu, launch Windows PowerSh
 ```PowerShell
 Test-Path $profile
 ```
-![Test-Path Syntax](img/testprofile.PNG "Test-Path syntax")
+![Test-Path Syntax](/img/testprofile.PNG "Test-Path syntax")
 
 It returns a boolean, with **False** being no profile exists or **True** meaning a profile already exists. In the case of **False**, then you'll want to run the following to generate your profile:
 
@@ -39,7 +39,7 @@ notepad $profile
 ```
 This will create a file named `Microsoft.PowerShellISE_profile.ps1` or `Microsoft.PowerShell_profile.ps1` in the `C:\Users\<username>\Documents\WindowsPowerShell` directory, and open NotePad to edit it.
 
-![New Profile Syntax](img/newprofile.PNG "New profile syntax")
+![New Profile Syntax](/img/newprofile.PNG "New profile syntax")
 
 If the `Test-Path $profile` returned **True**, you can simply forgo `New-Item` command and simply do `notepad $profile` to open your existing profile.
 
@@ -113,7 +113,7 @@ Write-Host -ForegroundColor Green "All modules loaded and connected to TenantAdm
 
 Save and close notepad and fire up PowerShell again. If all worked correctly, you should be challenged with a credential window, prepopulated with your email address asking you for your password. Supply it and you are connected to SharePoint Online!
 
-![Credential prompt](img/credential.PNG "Credential prompt")
+![Credential prompt](/img/credential.PNG "Credential prompt")
 
 ## Working Collaboratively
 
