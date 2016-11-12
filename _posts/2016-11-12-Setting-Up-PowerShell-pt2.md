@@ -6,7 +6,7 @@ title: "Setting Up PowerShell for Office 365, part 2"
 
 subtitle: "Getting the plumbing in order for successfully managing your tenant"
 
-date: 2016-XX-XX
+date: 2016-11-12
 
 category: Administration
 
