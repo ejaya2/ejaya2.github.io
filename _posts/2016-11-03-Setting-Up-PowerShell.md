@@ -8,7 +8,7 @@ tags: PowerShell
 author: Eric
 ---
 
-So you have a shiny new Offce 365 tenant. Now what? If you are anything like me, the first thing you want to do is to start plugging away from the PowerShell to administer your tenant. But how do you do that?
+So you have a shiny new Office 365 tenant. Now what? If you are anything like me, the first thing you want to do is to start plugging away from the PowerShell to administer your tenant. But how do you do that?
 
 In this post, I am going to go through the process of getting your environment set up to start using PowerShell. This is focused more on the SharePoint side of the Office 365 suite.
 
@@ -41,4 +41,8 @@ Depending on what workloads you are going to work with in Office 365, there are 
  If video is more your thing, [Shane Young](https://twitter.com/ShanesCows) has a video over on the [Youtubes](https://www.youtube.com/watch?v=rEy2mlFVWa4) going over some of these concepts. Well worth a watch if you have time.
 
 ## What's next?
+<<<<<<< HEAD
 In my next post, I'll go through a technique of wiring all these components into a PowerShell profile and detail some ways our team is effectively using a custom module shared via OneDrive.
+=======
+In my next post, I'll go through a technique of wiring all these components into a PowerShell profile and detail some ways our team is effectively using a custom module shared via OneDrive.
+>>>>>>> refs/remotes/origin/master
