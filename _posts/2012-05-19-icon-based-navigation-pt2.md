@@ -20,13 +20,13 @@ Next create a custom list, in my example, it's called IconNav. Create the follow
  - order - Number, optional, 0 decimal places, (This column is purely optional and is used for specifying your own sort order)</li></ul>
 
  
-![List Settings](https://github.com/ejaya2/ejaya2.github.io/blob/master/img/NavList.JPG "List Settings") 
+![List Settings](http://ericjalexander.com/img/NavList.JPG "List Settings") 
 Now upload all the icons you want to use into the previously mentioned document/picture/asset library.</p>
 
-![icons](https://github.com/ejaya2/ejaya2.github.io/blob/master/img//NavIconImages.JPG "Icons")
+![icons](http://ericjalexander.com/img//NavIconImages.JPG "Icons")
 Now go to the IconNav list and start creating list items, filling in all the metadata.&nbsp; You'll end up with something that looks like this. Take note of this image as there are 4 items in the list. When you see the final solution, you'll notice there are only 3. That's because I removed anonymous access to the Angel link.
 
-![IconNav list items](https://github.com/ejaya2/ejaya2.github.io/blob/master/img//NavListItems.JPG "IconNav list items")
+![IconNav list items](http://ericjalexander.com/img//NavListItems.JPG "IconNav list items")
 Now the last part of this equation is to create a pretty display of all this information. To that we're turning to SharePoint Designer and creating a dataview web part. This is rudimentary rowview code so you can see what's going on, but any navigation you can think of could be output.
 
 ```html
@@ -58,7 +58,7 @@ Now the last part of this equation is to create a pretty display of all this inf
 
 This creates an output that looks like this.
 
-![Much success](https://github.com/ejaya2/ejaya2.github.io/blob/master/img/Results.JPG "Much success")
+![Much success](http://ericjalexander.com/img/Results.JPG "Much success")
 
 Notice you only see 3 items, but there are 4 items in that nav list because anon users were removed. Ideally, permissions would match on the links and the corresponding pages so there aren't any security breaches.
 

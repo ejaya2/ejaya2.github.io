@@ -41,8 +41,6 @@ Depending on what workloads you are going to work with in Office 365, there are 
  If video is more your thing, [Shane Young](https://twitter.com/ShanesCows) has a video over on the [Youtubes](https://www.youtube.com/watch?v=rEy2mlFVWa4) going over some of these concepts. Well worth a watch if you have time.
 
 ## What's next?
-<<<<<<< HEAD
+
 In my next post, I'll go through a technique of wiring all these components into a PowerShell profile and detail some ways our team is effectively using a custom module shared via OneDrive.
-=======
-In my next post, I'll go through a technique of wiring all these components into a PowerShell profile and detail some ways our team is effectively using a custom module shared via OneDrive.
->>>>>>> refs/remotes/origin/master
+

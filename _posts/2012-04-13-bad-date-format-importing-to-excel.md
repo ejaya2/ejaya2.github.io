@@ -15,8 +15,8 @@ The apostrophe trick did work&#8203; if I was manually inputting the data, but w
 
 I eventually found a handy little setting in the Data Connection properties. Go into the data connection and click the Options link,
 
-![Edit data connection](https://github.com/ejaya2/ejaya2.github.io/blob/master/img/editdataconn.PNG "Edit data connection")
+![Edit data connection](http://ericjalexander.com/img/editdataconn.PNG "Edit data connection")
 
 From there, tick to enable the Disable date recognition option under Other Import Settings.
 
-![Options](https://github.com/ejaya2/ejaya2.github.io/blob/master/img/options.PNG "Options")
+![Options](http://ericjalexander.com/img/options.PNG "Options")
