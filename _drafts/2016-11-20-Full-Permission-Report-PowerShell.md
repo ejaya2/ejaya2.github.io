@@ -6,7 +6,7 @@ title: "Generate a Full Permission Report in PowerShell"
 
 subtitle: "See who has access to what in your SharePoint Online sites via PowerShell"
 
-date: 2016-11-XX
+date: 2016-11-20
 
 category: Administration
 
