@@ -42,7 +42,7 @@ Running the script is easy, simply make the desired configuration changes in the
 
 ## The script
 
-You can download the script from [here](http://ericjalexander.com/scripts/enumerate_permissions.ps1)
+You can download the script from [here](http://ericjalexander.com/scripts/enumerate_permissions.ps1), I've also included it below.
 
 ```PowerShell
 #Adapted from: https://github.com/OfficeDev/PnP/blob/master/Samples/Core.PermissionListing/Core.PermissionListingWeb/Pages/Default.aspx.cs
