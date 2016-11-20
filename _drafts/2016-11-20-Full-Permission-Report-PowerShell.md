@@ -32,7 +32,9 @@ The script I came up with, primarily for our needs, iterates through all of the 
  * It will output the display names of users and AD groups that are used for permissions
  * Update the configuration section as desired to match your tenant
 
-This script was adapted from the PnP group's [CSOM example](https://github.com/OfficeDev/PnP/blob/master/Samples/Core.PermissionListing/Core.PermissionListingWeb/Pages/Default.aspx.cs) of enumerating permissions. The challenge in their script was overcoming the lambda in their script which PowerShell has no equivalent. This is where Gary's utility function comes into play and is the critical piece to allow us to do this in PowerShell.
+This script was adapted from the PnP group's [CSOM example](https://github.com/OfficeDev/PnP/blob/master/Samples/Core.PermissionListing/Core.PermissionListingWeb/Pages/Default.aspx.cs) of enumerating permissions. The challenge in their script was overcoming the lambda in their script which PowerShell has no equivalent. This is where Gary's utility function comes into play and is the critical piece to allow us to do this in PowerShell. 
+
+I've tried to expalin what is going on in the script with comments and some rationale, based on our needs.
 
 ## Running a permissions report
 
