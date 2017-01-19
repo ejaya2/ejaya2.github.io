@@ -39,12 +39,12 @@ Any licensed user can do this. I was perplexed as to where these came from as we
  
  You may be wondering where it originates from. The answer is Delve. If you go to Delve and click on Me in the left navigation, you'll be taken to your bio. At the very bottom, there is a section called Blog.
  
- ![Blog Section](http://ericjalexander.com/img/delve_me.JPG "Blog section") 
+ ![Blog Section](http://ericjalexander.com/img/delve_me.png "Blog section") 
  
 ### The How
  
  By clicking on the + New Post link, it will generate a new blog site, aka PointPublishingPersonal#0. Then you'll end up on a page like this:
- ![Modern blogging in Delve](http://ericjalexander.com/img/delve_blog.JPG "Modern blogging in Delve") 
+ ![Modern blogging in Delve](http://ericjalexander.com/img/delve_blog.png "Modern blogging in Delve") 
  
 ### The Why
  
