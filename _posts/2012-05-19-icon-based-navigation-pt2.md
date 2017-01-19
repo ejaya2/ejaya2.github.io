@@ -24,7 +24,6 @@ Next create a custom list, in my example, it's called IconNav. Create the follow
 Now upload all the icons you want to use into the previously mentioned document/picture/asset library.
 
 ![icons](http://ericjalexander.com/img//NavIconImages.JPG "Icons")
-
 Now go to the IconNav list and start creating list items, filling in all the metadata.&nbsp; You'll end up with something that looks like this. Take note of this image as there are 4 items in the list. When you see the final solution, you'll notice there are only 3. That's because I removed anonymous access to the Angel link.
 
 ![IconNav list items](http://ericjalexander.com/img//NavListItems.JPG "IconNav list items")
