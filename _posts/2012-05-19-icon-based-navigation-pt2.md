@@ -14,16 +14,17 @@ If you don't have an Asset Library, document library or picture library on your 
 
 Next create a custom list, in my example, it's called IconNav. Create the following columns:
  
- - image - Hyperlink or Picture, required, format URL as Picture</li>
- - desc - Multiple lines of text, optional, plain text</li>
- - link - &nbsp; Hyperlink or Picture, required, format URL as Hyperlink</li>
- - order - Number, optional, 0 decimal places, (This column is purely optional and is used for specifying your own sort order)</li></ul>
+ - image - Hyperlink or Picture, required, format URL as Picture
+ - desc - Multiple lines of text, optional, plain text
+ - link - &nbsp; Hyperlink or Picture, required, format URL as Hyperlink
+ - order - Number, optional, 0 decimal places, (This column is purely optional and is used for specifying your own sort order)
 
  
 ![List Settings](http://ericjalexander.com/img/NavList.JPG "List Settings") 
-Now upload all the icons you want to use into the previously mentioned document/picture/asset library.</p>
+Now upload all the icons you want to use into the previously mentioned document/picture/asset library.
 
 ![icons](http://ericjalexander.com/img//NavIconImages.JPG "Icons")
+
 Now go to the IconNav list and start creating list items, filling in all the metadata.&nbsp; You'll end up with something that looks like this. Take note of this image as there are 4 items in the list. When you see the final solution, you'll notice there are only 3. That's because I removed anonymous access to the Angel link.
 
 ![IconNav list items](http://ericjalexander.com/img//NavListItems.JPG "IconNav list items")
