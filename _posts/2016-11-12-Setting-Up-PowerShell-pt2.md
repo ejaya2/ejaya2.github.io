@@ -1,19 +1,11 @@
 ---
-
 layout: post
-
 title: "Setting Up PowerShell for Office 365, part 2"
-
 subtitle: "Getting the plumbing in order for successfully managing your tenant"
-
 date: 2016-11-12
-
 category: Administration
-
-tags: PowerShell
-
+tags: [PowerShell]
 author: Eric
-
 ---
 
 Welcome back friends. In part 2 of Setting up PowerShell for Office 365, I'm going to show you how to create a profile, wire up all of our previously installed modules necessary to talk to SharePoint, and show a technique on sharing a module across a team. If you don't know what I'm talking about, then please refer to the [previous article](http://ericjalexander.com/blog/2016/11/03/Setting-Up-PowerShell).
@@ -123,3 +115,6 @@ Having said all of that, the module we have is stored in SharePoint Online under
 
 ## Conclusion
 In this article, I've shown you how to generate a profile, wire in all the necessary modules needed to work with SharePoint Online, and provided a interesting approach to share custom scripts and modules with team members. With all of this in place, you are ready to start your SharePoint Online management ~~nightmare~~ journey. Look for future articles about creating a shared module of functions for your team and other things PowerShell related.
+
+## Edit 2-14-2017
+Wiring in the CSOM components is not necessary. The management shell comes with all of the necessary components to do CSOM in PowerShell without having to wire in the very outdated SDK.
