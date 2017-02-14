@@ -3,8 +3,8 @@ layout: post
 title: "Oddity with importing SharePoint data to Excel"
 subtitle: Sometimes Excel is too helpful
 date: 2012-04-13
-category: Announcement
-tags: [Book]
+category: Office
+tags: [Excel,List,Import]
 author: Eric
 ---
 Imagine a scenario where you have a list of items with a product number or room number in the format of XX-XXXX. Now imaging you have an Excel workbook the pulls in data from this Sharepoint site including that field.
