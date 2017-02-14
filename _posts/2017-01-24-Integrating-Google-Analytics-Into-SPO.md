@@ -10,7 +10,7 @@ date: 2017-01-21
 
 category: Administration
 
-tags: Auditing, Power BI, Google Analytics
+tags: [Auditing, Power BI, Google Analytics]
 
 author: Eric
 
