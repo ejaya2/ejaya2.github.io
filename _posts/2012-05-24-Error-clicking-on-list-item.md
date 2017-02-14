@@ -4,7 +4,7 @@ title: "Error when clicking on a list item with many workflows"
 subtitle: The craziest things you'll run into sometimes
 date: 2012-05-24
 category: "Power User"
-tags: Workflow
+tags: [Workflow]
 author: Eric
 ---
 
