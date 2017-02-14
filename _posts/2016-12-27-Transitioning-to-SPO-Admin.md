@@ -1,19 +1,11 @@
 ---
-
 layout: post
-
 title: "Transitioning to a SharePoint Online Administrator"
-
 subtitle: "Forget everything you thought you knew, it doesn't matter anymore"
-
 date: 2016-12-27
-
 category: Administration
-
-tags: Tips, Discussion
-
+tags: [Tips, Discussion]
 author: Eric
-
 ---
 
 Welcome back friends. Today in this catchy title, I wanted to go over some of the things that might trip you up as you transition to SharePoint Online. This caters specifically to SharePoint Online, if you are running hybrid, then you still need to remember all your on premises information.
