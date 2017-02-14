@@ -4,7 +4,7 @@ title: "PointPublishingPersonal#0, What the heck is it?"
 subtitle: "Some foreign site just showed up"
 date: 2017-01-18
 category: Administration
-tags: [Office 365, Delve, PointPublishingPersonal#0, PowerShell]
+tags: [Office365,Delve,PointPublishingPersonal#0,PowerShell]
 author: Eric
 ---
 
