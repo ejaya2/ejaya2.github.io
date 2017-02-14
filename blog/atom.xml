@@ -4,13 +4,13 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Hank Quinlan's Blog</title>
-	<link href="http://ejaya2.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://ejaya2.github.io/blog"/>
+	<title>Eric J. Alexander</title>
+	<link href="http://ericjalexander.com/blog/atom.xml" rel="self"/>
+	<link href="http://ericjalexander.com/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://ejaya2.github.io/blog</id>
+	<id>http://ericjalexander.com/blog</id>
 	<author>
-		<name>Eric Alexander</name>
+		<name>Eric J. Alexander</name>
 	</author>
 
 	{% for post in site.posts %}
@@ -18,7 +18,7 @@ layout: feed
 			<title>{{ post.title }}</title>
 			<link href="http://ejaya2.github.io{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://ejaya2.github.io/{{ post.id }}</id>
+			<id>http://ericjalexander.com{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
