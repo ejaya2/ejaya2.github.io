@@ -4,7 +4,7 @@ title: "Getting a new blog up"
 subtitle: I'll really try to start blogging more, I swear
 date: 2016-10-19
 category: Announcement
-tags: [SharePoint Online, Office 365]
+tags: [SharePointOnline, Office365]
 author: Eric
 ---
 
