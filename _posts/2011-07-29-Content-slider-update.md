@@ -4,7 +4,7 @@ title: "Content slider update"
 subtitle: "Additional functionality for the content slider"
 date: 2011-07-29
 category: Development
-tags: [Slider]
+tags: [slider]
 author: Eric
 ---
 A couple weeks ago I had posted an article on [nothingbutsharepoint.com](https://www.nothingbutsharepoint.com) on how to create a [content slider](https://www.nothingbutsharepoint.com/sites/eusp/Pages/Creating-your-own-Content-Slider-for-SharePoint.aspx) for SharePoint. One of the comments I received was:
