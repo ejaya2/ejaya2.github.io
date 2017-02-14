@@ -1,19 +1,11 @@
 ---
-
 layout: post
-
 title: "Integrating Google Analytics Into SharePoint Online"
-
 subtitle: "Get deep analytics and page views in SharePoint Online with Google Analytics"
-
 date: 2017-01-21
-
 category: Administration
-
-tags: [Auditing, Power BI, Google Analytics]
-
+tags: [Auditing,PowerBI,Analytics]
 author: Eric
-
 ---
 
 Welcome back friends. Today in this catchy title, I'm going to go into detail on you you can get deep analytics on your SharePoint Online usage behavior by using User Custom Actions, Google Analytics, and Power BI. This has been something I wanted to blog about for a while. We have this setup running on a couple of our site collections that needed some rich analytics and metrics on user behavior. I've been putting it off mainly because of how long it will be, so if you find this interesting, I would appreciate some tweets.
