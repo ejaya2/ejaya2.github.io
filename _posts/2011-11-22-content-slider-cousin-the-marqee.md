@@ -4,7 +4,7 @@ title: "The Content Slider's Cousin, the Marquee"
 subtitle: But were't marquees like web circa 2000?
 date: 2011-11-22
 category: Development
-tags: [jQuery, SPServices, marquee, slider]
+tags: [jQuery,SPServices,Marquee,Slider]
 author: Eric
 ---
 In my previous article, I showed you the framework for building your own content slider. Today, while perusing the [SharePoint forums](http://sharepoint.stackexchange.com/) on Stack Exchange, I found an interesting [post](http://sharepoint.stackexchange.com/questions/23775/list-driven-scrolling-marquee) that I thought I’d put to the test, creating a marquee with jQuery. Christophe has already tackled this with his great series on html calculated columns and an example can be seen [here](http://pathtosharepoint.com/Lists/TasksVisualization/AllItems.aspx). I thought since I had already done this in the past, utilizing that framework to create a similar output would be a snap.
