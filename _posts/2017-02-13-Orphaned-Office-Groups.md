@@ -10,7 +10,7 @@ date: 2017-02-13
 
 category: Administration
 
-tags: PowerShell, Office 365
+tags: [PowerShell, Office 365]
 
 author: Eric
 
