@@ -12,6 +12,8 @@
 		<div class="container">
 			<h1 class="post-title">{{ page.title }}</h1>
 			<h2 class="post-subtitle">{{ page.subtitle }}</h2>
+			<h4><a href="{{ page.url }}" title="Permalink for this article">{{ page.date | date_to_long_string }}</a> by {{ page.author }}</h4>
+			<h4 class="item_tags">Tagged: {% for tag in page.tags %}{{ tag }} {% if forloop.last != true %}, {% endif %}{% endfor %}</h4>
 			{{ content }}
 		</div>
 
