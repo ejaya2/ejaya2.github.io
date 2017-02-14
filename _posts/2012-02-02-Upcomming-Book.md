@@ -4,7 +4,7 @@ title: "Upcoming Book"
 subtitle: I'm going to be published
 date: 2012-02-02
 category: Announcement
-tags: Book
+tags: [Book]
 author: Eric
 ---
 I generally don't like to toot my own horn but sometimes it's a necessity. I'm pleased to announce that the book I wrote a chapter in is going to press. I was contacted by Mark Miller of [nothingbutsharepoint.com](https://www.nothingbutsharepoint.com/"), aka [@EUSP](http://twitter.com/EUSP"), to submit a chapter for a book. Honored to be asked to do this, I agreed happily. The title of the book is _SharePoint at Work – Tricks, Traps, and Bold Opinions: The Best of EndUserSharePoint.com_ and can be preordered on [Amazon.com](http://www.amazon.com/SharePoint-2010-Work-Tricks-Opinions/dp/1449321003/) for 45% off. I wrote Chapter 9, an updated version of one of my most highly commented posts on nothingbutsharepoint, [QOTD: SharePoint Document Library](https://www.nothingbutsharepoint.com/sites/eusp/Pages/qotd-sharepoint-document-library.aspx). This has been updated and revised for 2010 in the book.
