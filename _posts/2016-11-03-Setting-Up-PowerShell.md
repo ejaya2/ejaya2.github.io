@@ -4,7 +4,7 @@ title: "Setting Up PowerShell for Office 365"
 subtitle: "Getting the plumbing in order for successfully managing your tenant"
 date: 2016-11-03
 category: Administration
-tags: PowerShell
+tags: [PowerShell]
 author: Eric
 ---
 
