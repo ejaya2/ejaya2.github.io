@@ -4,7 +4,7 @@ title: "A Couple Helper Functions"
 subtitle: A few old stand bys
 date: 2012-05-29
 category: Utilities
-tags: [jQuery, SPServices]
+tags: [jQuery,SPServices]
 author: Eric
 ---
 If you work with client side scripts and libraries like jQuery and [SPServices](http://spservices.codeplex.com/), you'll often run into situations where the data you get back from. This isn't an issue with those libraries, they're just spitting back at you what SharePoint told them. The two areas where I see this the most in my dealings is with dates and person/group/lookup fields. As an update, I'm including something for number columns as well.
