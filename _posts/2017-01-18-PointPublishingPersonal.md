@@ -1,19 +1,11 @@
 ---
-
 layout: post
-
 title: "PointPublishingPersonal#0, What the heck is it?"
-
 subtitle: "Some foreign site just showed up"
-
 date: 2017-01-18
-
 category: Administration
-
-tags: Office 365, Delve, PointPublishingPersonal#0, PowerShell
-
+tags: [Office 365, Delve, PointPublishingPersonal#0, PowerShell]
 author: Eric
-
 ---
 
 Welcome back friends. Today's post is going to cover a strange anamoly I hadn't come across before, and I couldn't find much about it, so I thought I'd be a swell guy and share it.
@@ -33,22 +25,22 @@ Any licensed user can do this. I was perplexed as to where these came from as we
 
 ### The What
  
- The PointPublishingPersonal#0 template is a hidden site collection with an **unconfigurable default site quota of 1 TB** that counts against your tenant storage. If deleted, this site and it's contents cannot be recovered. The only way to restrict this functionality is to turn off Delve.
+The PointPublishingPersonal#0 template is a hidden site collection with an **unconfigurable default site quota of 1 TB** that counts against your tenant storage. If deleted, this site and it's contents cannot be recovered. The only way to restrict this functionality is to turn off Delve.
  
 ### The Where
  
- You may be wondering where it originates from. The answer is Delve. If you go to Delve and click on Me in the left navigation, you'll be taken to your bio. At the very bottom, there is a section called Blog.
+You may be wondering where it originates from. The answer is Delve. If you go to Delve and click on Me in the left navigation, you'll be taken to your bio. At the very bottom, there is a section called Blog.
  
  ![Blog Section](http://ericjalexander.com/img/delve_me.PNG "Blog section") 
  
 ### The How
  
- By clicking on the + New Post link, it will generate a new blog site, aka PointPublishingPersonal#0. Then you'll end up on a page like this:
+By clicking on the + New Post link, it will generate a new blog site, aka PointPublishingPersonal#0. Then you'll end up on a page like this:
  ![Modern blogging in Delve](http://ericjalexander.com/img/delve_blog.PNG "Modern blogging in Delve") 
  
 ### The Why
  
- This is pure speculation, but I imagine that they are trying to kill off the standard SharePoint functionality in OneDrive for Business. In SharePoint versions past, it was very common to have a blog subsite hanging off your MySite. The move to Delve makes sense as this is where your profile data is just like MySites of old and gives the modern publishing experience like we have in team sites and Office Groups.
+This is pure speculation, but I imagine that they are trying to kill off the standard SharePoint functionality in OneDrive for Business. In SharePoint versions past, it was very common to have a blog subsite hanging off your MySite. The move to Delve makes sense as this is where your profile data is just like MySites of old and gives the modern publishing experience like we have in team sites and Office Groups.
 
 ### Where do we go from here?
 
