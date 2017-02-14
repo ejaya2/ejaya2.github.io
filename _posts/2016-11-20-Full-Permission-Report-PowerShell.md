@@ -1,19 +1,11 @@
 ---
-
 layout: post
-
 title: "Generate a Full Permission Report in PowerShell"
-
 subtitle: "See who has access to what in your SharePoint Online sites via PowerShell"
-
 date: 2016-11-20
-
 category: Administration
-
-tags: PowerShell, Permissions
-
+tags: [PowerShell, Permissions]
 author: Eric
-
 ---
 
 Welcome back friends. Today I'll be going over how to create a script that will iterate over every site in your tenancy and emit a permissions report down to the list level on who has access to what information.
