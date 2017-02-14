@@ -4,7 +4,7 @@ title: "Creating an icon based navigation, part 2"
 subtitle: Bringing the idea to life 
 date: 2012-05-19
 category: Development
-tags: [navigation, jQuery, SPServices]
+tags: [Navigation,jQuery,SPServices]
 author: Eric
 ---
 
