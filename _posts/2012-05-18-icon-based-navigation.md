@@ -4,7 +4,7 @@ title: "Creating an icon based navigation"
 subtitle: The setup for a slick UI
 date: 2012-05-18
 category: Development
-tags: navigation jQuery SPServices
+tags: [navigation, jQuery, SPServices]
 author: Eric
 ---
 
