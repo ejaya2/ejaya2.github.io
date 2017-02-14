@@ -4,7 +4,7 @@ title: "AddWebPart Method of the WebPartPages Web Service"
 subtitle: Adding web parts onto your pages via the web services
 date: 2013-01-17
 category: Development
-tags: [jQuery, SPServices, WebParts]
+tags: [jQuery,SPServices,WebParts]
 author: Eric
 ---
 It's been a bit of a hiatus since I've posted anything on my blog. 2 kids, a job change, and a move across country will do that. Anyway, tonight's post is one I'm doing more for self-preservation and hopefully others will find it useful. There are a lot of documentation black holes out there in the Sharepoint land and it seems that the WebPartPages web service is one of them.
