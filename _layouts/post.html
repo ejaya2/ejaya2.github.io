@@ -12,8 +12,8 @@
 		<div class="container">
 			<h1 class="post-title"><a href="{{ page.url }}" title="Permalink for this article">{{ page.title }}</a></h1>
 			<h3 class="post-subtitle">{{ page.subtitle }}</h3>
-			<h4>Posted on <a href="{{ page.url }}" title="Permalink for this article">{{ page.date | date_to_long_string }}</a> by {{ page.author }} in the category {{ page.category }}</h4>
-			<h4 class="item_tags">Tagged under: {% for tag in page.tags %}{{ tag }} {% if forloop.last != true %}, {% endif %}{% endfor %}</h4>
+			<h5>Posted on <a href="{{ page.url }}" title="Permalink for this article">{{ page.date | date_to_long_string }}</a> by {{ page.author }} in the category {{ page.category }}</h5>
+			<h5 class="item_tags">Tagged under: {% for tag in page.tags %}{{ tag }}{% if forloop.last != true %}, {% endif %}{% endfor %}</h5>
 			{{ content }}
 		</div>
 
