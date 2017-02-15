@@ -6,14 +6,7 @@ permalink: categories/
 
 <h2>{{ page.title }}</h2>
 
-{% capture category %}
-  {% for cat in site.category %}
-    {{ cat[0] }}
-  {% endfor %}
-{% endcapture %}
-{% assign sortedcats = category | split:' ' | sort %}
-
-{% for cat in sortedcats %}
+{% for cat in site.category %}
   <h3 id="{{ cat | escape }}">{{ cat }}</h3>
   <ul>
   {% for post in site.category[cat] %}
