@@ -1,0 +1,23 @@
+---
+layout: default
+title: Posts by Category
+permalink: categories/
+---
+
+<h2>{{ page.title }}</h2>
+
+{% capture category %}
+  {% for cat in site.category %}
+    {{ cat[0] }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedcats = category | split:' ' | sort %}
+
+{% for cat in sortedcats %}
+  <h3 id="{{ cat | escape }}">{{ cat }}</h3>
+  <ul>
+  {% for post in site.category[cat] %}
+    <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+{% endfor %}
