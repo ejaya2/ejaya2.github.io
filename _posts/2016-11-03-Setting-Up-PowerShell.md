@@ -20,12 +20,12 @@ We install the Windows Management Framework to upgrade of course.
 The [Windows Management Framework](http://www.microsoft.com/en-us/download/details.aspx?id=40855 "Download from Microsoft") contains updates to the client and ISE. Download and install these components.
 
 ### SharePoint Online Management Shell
-~~The next thing we need to install is the [SharePoint Online Management Shell](http://www.microsoft.com/en-us/download/details.aspx?id=35588 "Download from Microsoft"). This contains all the DLLs needed to do our work.~~ This is not necessary, installing the client components below adds the appropriate CSOM dlls.
+The next thing we need to install is the [SharePoint Online Management Shell](http://www.microsoft.com/en-us/download/details.aspx?id=35588 "Download from Microsoft"). This contains all the DLLs needed to do our work. 
 
 ### SharePoint Online Client Components
-The next required component is the [SharePoint Online Client Components SDK](http://www.microsoft.com/en-us/download/details.aspx?id=42038 "Download from Microsoft"). These are all the various DLLs that we need to use CSOM in PowerShell. 
+~~The next required component is the [SharePoint Online Client Components SDK](http://www.microsoft.com/en-us/download/details.aspx?id=42038 "Download from Microsoft"). These are all the various DLLs that we need to use CSOM in PowerShell. 
 The SharePoint Online Client Components have a very limited set of commandlets at our disposal if you have ever worked with an on premesis installation of SharePoint. We need these client DLLs to be able to create our own functions
-that bridge the gap. Once these are installed
+that bridge the gap.~~ This is not necessary, installing the management shell above adds the appropriate CSOM dlls.
 
 ## Optional Module, PnP PowerShell
 If creating a slew of functions is not up your alley, there is a great publicly available project on GitHub called [Office 365 Dev PnP PowerShell CmdLets](https://github.com/OfficeDev/PnP-PowerShell). I won't be covering this in great detail. By the time I knew it was
