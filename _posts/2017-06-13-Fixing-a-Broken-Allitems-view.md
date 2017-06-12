@@ -8,7 +8,7 @@ date: 2017-06-12
 
 category: Administration
 
-tags: [PowerShell,WebPart,DocumentLibrary]
+tags: [PowerShell,WebPart,Document Library]
 
 author: Eric
 
