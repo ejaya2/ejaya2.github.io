@@ -4,7 +4,7 @@ title: "Life Updates"
 subtitle: "It can come at you fast"
 date: 2017-05-01
 category: General
-tags: [life]
+tags: [Life]
 author: Eric
 ---
 
