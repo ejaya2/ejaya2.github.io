@@ -17,7 +17,7 @@ In a [previous post](http://ericjalexander.com/blog/2016/11/12/Setting-Up-PowerS
 The script I came up with, primarily for our needs, iterates through all of the Team and Project spaces and will detail permissions. Things to note:
 
  * It assumes you have a profile in place like I [previously described](http://ericjalexander.com/blog/2016/11/12/Setting-Up-PowerShell-pt2)
- * It has a dependency on [Gary LaPointe's](https://www.itunity.com/users/gary-lapointe) immensely [Load-CSOMProperties](https://www.itunity.com/article/loading-specific-values-lambda-expressions-sharepoint-csom-api-windows-powershell-1249) function. I have this included into our module, so it is loaded with our profiles. If you don't have it, you will need to include the function in this script.
+ * It has a dependency on [Gary LaPointe's](https://www.itunity.com/users/gary-lapointe) immensely useful [Load-CSOMProperties](https://www.itunity.com/article/loading-specific-values-lambda-expressions-sharepoint-csom-api-windows-powershell-1249) function. I have this included into our module, so it is loaded with our profiles. If you don't have it, you will need to include the function in this script.
  * It only details things with unique permissions, lists or subsites with inherited permissions are not included
  * It will output if any of the broad claims are being used. In our tenant, we decided to hide these claims in a [Set-SPOTenant](https://technet.microsoft.com/en-us/library/fp161390.aspx "Set-SPOTenant") command, but they can still be used.
  * It will enumerate group membership, so the output can be long
