@@ -52,7 +52,7 @@ $To = "someone@domain.com"
 $From = "no-reply@sharepointonline.com"
 $Subject = "SharePoint Online Permissions Report"
 $Body = "Attached is the output of the permissions report."
-$SMTPServer = "smtp.domian.com"
+$SMTPServer = "smtp.domain.com"
 #endregion
 
 #region functions
